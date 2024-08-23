@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>配信者のホームページ</title>
+    <link rel="stylesheet" href="yukai_hp.css">
+    <!-- SwiperのCSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>配信者の名前</h1>
+            <nav>
+                <button class="nav-toggle" aria-label="メニュー">
+                    <span class="nav-icon"></span>
+                </button>
+                <ul class="nav-list">
+                    <li><a href="#intro">自己紹介</a></li>
+                    <li><a href="#streams">配信情報</a></li>
+                    <li><a href="#gallery">メディアギャラリー</a></li>
+                    <li><a href="#blog">ブログ・ニュース</a></li>
+                    <li><a href="#contact">お問い合わせ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="carousel-container flex flex-col items-center">
+        <div class="carousel w-full md:w-[1280px]">
+            <div class="relative">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <!-- スライド1 -->
+                        <div class="swiper-slide">
+                            <a href="https://strawberryprince.stpr.com/stpr-card" target="_self">
+                                <img src="https://media.discordapp.net/attachments/1259600454879547412/1276178324758204487/670_0004-32-30_20240822200251.png?ex=66c93dee&is=66c7ec6e&hm=2a51b4e127a71d3a74032ff6a1b9ad1280c4c8afe01e46bc8e4dac949437c0fa&=&format=webp&quality=lossless&width=800&height=450" alt="STPR CARD" class="w-full">
+                            </a>
+                        </div>
+                        <!-- スライド2 -->
+                        <div class="swiper-slide">
+                            <a href="https://store.stpr.com/collections/stpr-movie" target="_blank" rel="noopener noreferrer">
+                                <img src="https://media.discordapp.net/attachments/1259600454879547412/1276178324758204487/670_0004-32-30_20240822200251.png?ex=66c93dee&is=66c7ec6e&hm=2a51b4e127a71d3a74032ff6a1b9ad1280c4c8afe01e46bc8e4dac949437c0fa&=&format=webp&quality=lossless&width=800&height=450" alt="はじまりの物語グッズ" class="w-full">
+                            </a>
+                        </div>
+                        <!-- スライド3 -->
+                        <div class="swiper-slide">
+                            <a href="https://strawberryprince-8th-anniversary.stpr.com/" target="_blank" rel="noopener noreferrer">
+                                <img src="https://media.discordapp.net/attachments/1259600454879547412/1276178324758204487/670_0004-32-30_20240822200251.png?ex=66c93dee&is=66c7ec6e&hm=2a51b4e127a71d3a74032ff6a1b9ad1280c4c8afe01e46bc8e4dac949437c0fa&=&format=webp&quality=lossless&width=800&height=450" alt="すとぷり8周年" class="w-full">
+                            </a>
+                        </div>
+                        <!-- スライド4 -->
+                        <div class="swiper-slide">
+                            <a href="https://strawberryprince.stpr.com/p/news/1st_single" target="_self">
+                                <img src="https://media.discordapp.net/attachments/1259600454879547412/1276178324758204487/670_0004-32-30_20240822200251.png?ex=66c93dee&is=66c7ec6e&hm=2a51b4e127a71d3a74032ff6a1b9ad1280c4c8afe01e46bc8e4dac949437c0fa&=&format=webp&quality=lossless&width=800&height=450" alt="1st_single" class="w-full">
+                            </a>
+                        </div>
+                        <!-- スライド5 -->
+                        <div class="swiper-slide">
+                            <a href="https://stpr-movie.com/" target="_blank" rel="noopener noreferrer">
+                                <img src="https://media.discordapp.net/attachments/1259600454879547412/1276178324758204487/670_0004-32-30_20240822200251.png?ex=66c93dee&is=66c7ec6e&hm=2a51b4e127a71d3a74032ff6a1b9ad1280c4c8afe01e46bc8e4dac949437c0fa&=&format=webp&quality=lossless&width=800&height=450" alt="すとぷり映画" class="w-full">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <div style="text-align: center;">
+        <section id="intro">
+            <div class="container">
+                <h2>自己紹介</h2>
+                <p>ここに自己紹介の内容を記載します。</p>
+            </div>
+        </section>
+
+        <section id="streams">
+            <div class="container">
+                <h2>配信情報</h2>
+                <div id="schedule">
+                    <h3>スケジュール</h3>
+                    <p>ここに配信スケジュールを記載します。</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery">
+            <div class="container">
+                <h2>メディアギャラリーと最新動画</h2>
+                <div class="gallery-video-wrapper">
+                    <div class="video-wrapper" style="margin-bottom: 20px;"> <!-- 余白を追加 -->
+                        <iframe width="100%" height="auto" src="https://www.youtube.com/embed/5A1N9wjiI-A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="gallery" style="margin-bottom: 20px;"> <!-- 余白を追加 -->
+                        <a class="twitter-timeline" data-width="100%" data-height="600" data-theme="light" href="https://twitter.com/yukai01234?ref_src=twsrc%5Etfw">Tweets by yukai01234</a>
+                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>                
+                </div>
+            </div>
+        </section>     
+
+        <section id="blog">
+            <div class="container">
+                <h2>ブログ・ニュース</h2>
+                <article>
+                    <h3>ブログタイトル</h3>
+                    <p>ブログの内容をここに記載します。</p>
+                </article>
+            </div>
+        </section>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 配信者の名前. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- SwiperのJS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="yukai_hp.js"></script>
+</body>
+</html>
